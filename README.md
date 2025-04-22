@@ -1,4 +1,3 @@
-markdown
 
 # Password Strength Indicator
 
@@ -66,6 +65,5 @@ Password visibility toggle.
 
 Unit tests for JavaScript logic.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
 
