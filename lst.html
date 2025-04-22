@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Indicator</title>
+    
+    <link rel="stylesheet" href="./ls2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Indicator</h1>
+        <input 
+            type="password" 
+            id="inputTest" 
+            placeholder="Enter your password" 
+            aria-describedby="passwordFeedback"
+        >
+        <div id="block_check" role="region" aria-live="polite">
+            <div class="section" id="section1"></div>
+            <div class="section" id="section2"></div>
+            <div class="section" id="section3"></div>
+        </div>
+        <p id="passwordFeedback" class="feedback"></p>
+    </div>
+    <script src="./ls1.js"></script>
+</body>
+</html>
