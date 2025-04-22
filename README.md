@@ -44,11 +44,17 @@ Read the feedback text for tips to improve the password.
 Project Structure
 
 password-strength-indicator/
+
 ├── index.html       # Main HTML file
+
 ├── styles.css       # Stylesheet with responsive design
+
 ├── script.js        # JavaScript logic for password evaluation
+
 ├── README.md        # Project documentation
+
 ├── .gitignore       # Git ignore file
+
 ├── LICENSE          # MIT License
 
 Future Improvements
